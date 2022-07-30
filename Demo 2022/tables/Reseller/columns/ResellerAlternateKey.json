@@ -1,0 +1,13 @@
+{
+  "name": "ResellerAlternateKey",
+  "dataType": "string",
+  "sourceColumn": "ResellerAlternateKey",
+  "lineageTag": "469277ca-4971-4a92-b5d4-0e42a108a8ce",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

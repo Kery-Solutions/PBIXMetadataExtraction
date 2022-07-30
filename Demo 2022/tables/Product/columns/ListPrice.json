@@ -1,0 +1,18 @@
+{
+  "name": "ListPrice",
+  "dataType": "decimal",
+  "sourceColumn": "ListPrice",
+  "formatString": "\"€\"#,0.###############;(\"€\"#,0.###############);\"€\"#,0.###############",
+  "lineageTag": "5c540ada-7c07-4f2f-8e98-c07f24c3b7ad",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

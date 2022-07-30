@@ -1,0 +1,14 @@
+{
+  "name": "DaysToManufacture",
+  "dataType": "int64",
+  "sourceColumn": "DaysToManufacture",
+  "formatString": "0",
+  "lineageTag": "f3cef628-647c-48b2-b1fb-686ecea80db5",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

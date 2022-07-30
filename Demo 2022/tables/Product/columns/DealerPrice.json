@@ -1,0 +1,18 @@
+{
+  "name": "DealerPrice",
+  "dataType": "decimal",
+  "sourceColumn": "DealerPrice",
+  "formatString": "\"€\"#,0.###############;(\"€\"#,0.###############);\"€\"#,0.###############",
+  "lineageTag": "3cda8638-9af6-4acf-9d95-b002332cf77c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

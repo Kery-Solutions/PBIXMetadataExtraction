@@ -1,0 +1,14 @@
+{
+  "name": "LastOrderYear",
+  "dataType": "int64",
+  "sourceColumn": "LastOrderYear",
+  "formatString": "0",
+  "lineageTag": "d3920589-80d0-4a4e-bc35-f743240c85be",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
