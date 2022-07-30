@@ -1,0 +1,10 @@
+{
+  "name": "Inventory Pallet Age >9mo Count",
+  "expression": [
+    "",
+    "COUNTROWS ( FILTER( 'Inventory (static)',  'Inventory (static)'[>9 Months] = \">9mths\" ) )"
+  ],
+  "formatString": "0",
+  "displayFolder": "Inventory Static",
+  "lineageTag": "05535968-de38-43cd-bed6-237feee5eb0e"
+}

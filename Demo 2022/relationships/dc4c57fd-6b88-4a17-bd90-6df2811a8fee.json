@@ -1,0 +1,7 @@
+{
+  "name": "dc4c57fd-6b88-4a17-bd90-6df2811a8fee",
+  "fromTable": "AP Transactions",
+  "fromColumn": "Vendor No.",
+  "toTable": "Vendors",
+  "toColumn": "Vendor No."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Open Sales Orders Latest",
+  "expression": [
+    "",
+    "MAX ( 'Open Sales Orders'[Ship Date] )"
+  ],
+  "formatString": "Short Date",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "6e0c7d2e-15be-4f84-a431-7e3f5dd3f4d8"
+}

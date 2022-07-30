@@ -1,0 +1,13 @@
+{
+  "name": "YearMonth No.",
+  "dataType": "string",
+  "sourceColumn": "YearMonth No.",
+  "lineageTag": "246e0f4d-1356-4fc7-9c91-c4b1791dd718",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

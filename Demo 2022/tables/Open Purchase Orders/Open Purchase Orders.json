@@ -1,0 +1,28 @@
+{
+  "name": "Open Purchase Orders",
+  "lineageTag": "563bc19b-767a-41d1-ab10-9f42ffedc7e3",
+  "partitions": [
+    {
+      "name": "Open Purchase Orders-5540396a-2248-47c7-aac2-c77c6fde17f8",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"c10e1364-9f68-4280-8600-3d69da7a0ed4\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"c10e1364-9f68-4280-8600-3d69da7a0ed4\"]}[Data],",
+          "    #\"Open Purchase Orders1\" = #\"c10e1364-9f68-4280-8600-3d69da7a0ed4\"{[entity=\"Open Purchase Orders\"]}[Data]",
+          "in",
+          "    #\"Open Purchase Orders1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

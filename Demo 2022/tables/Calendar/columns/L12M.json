@@ -1,0 +1,13 @@
+{
+  "name": "L12M",
+  "dataType": "string",
+  "sourceColumn": "L12M",
+  "lineageTag": "50d04a43-7056-40db-a89d-c55225c98f07",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

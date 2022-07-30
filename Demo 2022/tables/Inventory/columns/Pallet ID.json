@@ -1,0 +1,13 @@
+{
+  "name": "Pallet ID",
+  "dataType": "string",
+  "sourceColumn": "Pallet ID",
+  "lineageTag": "4444f325-65b8-41e9-a2df-754576d8db15",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

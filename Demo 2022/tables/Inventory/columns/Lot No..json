@@ -1,0 +1,13 @@
+{
+  "name": "Lot No.",
+  "dataType": "string",
+  "sourceColumn": "Lot No.",
+  "lineageTag": "154925b8-fb83-4650-bc3c-ba9e1a3bf1f3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

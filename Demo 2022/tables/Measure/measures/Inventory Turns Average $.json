@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Turns Average $",
+  "expression": "DIVIDE(([Inventory Turns Starting $] + [Inventory Turns Ending $]),2)",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "de6bcb88-7ade-4fe6-9f91-45335c7517c7",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

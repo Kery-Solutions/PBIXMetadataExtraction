@@ -1,0 +1,16 @@
+{
+  "name": "AP Open Balance Past Due $",
+  "expression": [
+    "",
+    "SUM ('AP Open Balances'[Past Due Amount] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AP Open Balance",
+  "lineageTag": "4977e3d8-2af2-4eee-93c4-9fa98c279a34",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

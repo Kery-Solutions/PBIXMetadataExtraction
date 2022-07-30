@@ -1,0 +1,31 @@
+{
+  "type": "calculated",
+  "name": "Percentile Sales $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = 'Customers'[Rank Sales $ L12M]",
+    "VAR perc =",
+    "    1",
+    "        - DIVIDE (",
+    "            CALCULATE (",
+    "                SUM ( Customers[Projected Sales $ L12M] ),",
+    "                ALL ( 'Customers' ),",
+    "                'Customers'[Rank Sales $ L12M] <= rnk",
+    "            ),",
+    "            CALCULATE ( SUM ( Customers[Projected Sales $ L12M] ), ALL ( 'Customers' ) )",
+    "        )",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( [Sales $ L12M] ) ), perc )"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "7255984d-da8a-481a-bab5-ea1d3a946d2f",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

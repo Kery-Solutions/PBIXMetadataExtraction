@@ -1,0 +1,7 @@
+{
+  "name": "471f1b85-b84c-4506-b2ab-996eba342765",
+  "fromTable": "AP Transactions",
+  "fromColumn": "Posting Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

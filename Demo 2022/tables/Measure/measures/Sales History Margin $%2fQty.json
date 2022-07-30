@@ -1,0 +1,16 @@
+{
+  "name": "Sales History Margin $/Qty",
+  "expression": [
+    "",
+    "DIVIDE ( [Sales History Margin $], [Sales History Qty] )"
+  ],
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales History",
+  "lineageTag": "a661fbf5-6f92-40ce-9a9d-7052440a3d7b",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

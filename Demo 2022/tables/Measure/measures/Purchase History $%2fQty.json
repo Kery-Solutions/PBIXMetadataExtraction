@@ -1,0 +1,16 @@
+{
+  "name": "Purchase History $/Qty",
+  "expression": [
+    "DIVIDE ( [Purchase History Cost $], [Purchase History Qty] )",
+    ""
+  ],
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Purchase History",
+  "lineageTag": "c558b8bb-2f51-4a6e-ba93-18bb0c26195e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

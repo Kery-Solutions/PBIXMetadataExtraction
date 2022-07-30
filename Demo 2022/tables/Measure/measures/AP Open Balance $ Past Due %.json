@@ -1,0 +1,10 @@
+{
+  "name": "AP Open Balance $ Past Due %",
+  "expression": [
+    "",
+    "DIVIDE ( [AP Open Balance Past Due $], [AP Open Balance $] )"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "AP Open Balance",
+  "lineageTag": "95b9ffc4-edae-4aa0-9121-d250649c957a"
+}

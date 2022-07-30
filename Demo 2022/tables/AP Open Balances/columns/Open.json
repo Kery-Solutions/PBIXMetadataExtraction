@@ -1,0 +1,15 @@
+{
+  "name": "Open",
+  "dataType": "int64",
+  "sourceColumn": "Open",
+  "formatString": "0",
+  "sourceProviderType": "bigint",
+  "lineageTag": "3f848bbb-c14d-42ae-9dbb-f77330019680",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

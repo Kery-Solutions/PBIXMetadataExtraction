@@ -1,0 +1,17 @@
+{
+  "name": "Cost $",
+  "dataType": "double",
+  "sourceColumn": "Cost $",
+  "lineageTag": "700f0fe4-155a-4534-83fc-a4216f43906b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

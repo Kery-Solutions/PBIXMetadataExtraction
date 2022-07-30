@@ -1,0 +1,14 @@
+{
+  "name": "Order No.",
+  "dataType": "string",
+  "sourceColumn": "Order No.",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "f2e15b76-c1f0-40a9-9de5-a983c17fe32a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

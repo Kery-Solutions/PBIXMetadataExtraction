@@ -1,0 +1,13 @@
+{
+  "name": "Aging Inventory Running KG",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Inventory Qty On Hand],",
+    "    FILTER(ALL('Calendar'), ISONORAFTER('Calendar'[Date], MAX('Calendar'[Date]), DESC))",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "cc99a285-e496-4e2e-be94-113bf3259bb2"
+}

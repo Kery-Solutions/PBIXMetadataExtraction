@@ -1,0 +1,7 @@
+{
+  "name": "a39fde81-02f2-4926-8459-968cd9e0e3e2",
+  "fromTable": "AR Transactions",
+  "fromColumn": "Posting Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

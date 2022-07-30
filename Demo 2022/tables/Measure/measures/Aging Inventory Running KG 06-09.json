@@ -1,0 +1,23 @@
+{
+  "name": "Aging Inventory Running KG 06-09",
+  "expression": [
+    "",
+    "VAR maxDate =",
+    "    MIN ( MAX ( 'Calendar'[Date] ), TODAY () )",
+    "RETURN",
+    "    ROUND (",
+    "        CALCULATE (",
+    "            [Aging Inventory Running KG],",
+    "            FILTER (",
+    "                ALL ( 'Inventory'[Prod Date] ),",
+    "                ISONORAFTER ( 'Inventory'[Prod Date], maxDate - 270, ASC )",
+    "                    && ISONORAFTER ( 'Inventory'[Prod Date], maxDate - 181, DESC )",
+    "            )",
+    "        ),",
+    "        0",
+    "    ) + 0"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "0f118e64-5601-4287-abea-6b4ad546c7d8"
+}

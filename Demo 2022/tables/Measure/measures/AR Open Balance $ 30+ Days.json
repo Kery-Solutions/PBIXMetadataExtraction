@@ -1,0 +1,19 @@
+{
+  "name": "AR Open Balance $ 30+ Days",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    'Measure'[AR Open Balance $],",
+    "    FILTER ( 'AR Open Balances', 'AR Open Balances'[Days Past Due] >= 30 )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Open Balance",
+  "lineageTag": "3c4baa50-85f0-412a-837c-984edd72ccf1",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

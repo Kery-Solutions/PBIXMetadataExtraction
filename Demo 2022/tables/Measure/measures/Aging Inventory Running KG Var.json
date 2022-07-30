@@ -1,0 +1,7 @@
+{
+  "name": "Aging Inventory Running KG Var",
+  "expression": "[Inventory Qty On Hand] - [Aging Inventory Running KG]",
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "afd0048e-cb80-4588-9b57-7778951b6cca"
+}

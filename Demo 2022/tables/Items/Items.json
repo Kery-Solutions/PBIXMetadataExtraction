@@ -1,0 +1,32 @@
+{
+  "name": "Items",
+  "lineageTag": "23d50d51-1813-4044-9384-ca35ee622f5b",
+  "partitions": [
+    {
+      "name": "Items-74cc3086-e7ab-40eb-846e-6dcfc8ffbeba",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"efd03a37-126a-4d3b-ac6e-d2afd1415964\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"efd03a37-126a-4d3b-ac6e-d2afd1415964\"]}[Data],",
+          "    Items1 = #\"efd03a37-126a-4d3b-ac6e-d2afd1415964\"{[entity=\"Items\"]}[Data]",
+          "in",
+          "    Items1"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "13045846-6987-493c-ade5-2174a74d181b",
+  "fromTable": "Open Sales Orders",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

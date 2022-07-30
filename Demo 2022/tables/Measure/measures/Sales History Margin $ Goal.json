@@ -1,0 +1,16 @@
+{
+  "name": "Sales History Margin $ Goal",
+  "expression": [
+    "",
+    "[Sales History $] * [Sales Margin % Goal Value]"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "381ab729-9593-4cb9-8f28-e7a8946c02aa",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Inventory Pallet Max Age",
+  "expression": [
+    "",
+    "MAX ( 'Inventory (static)'[Age (Days)] )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Inventory Static",
+  "lineageTag": "98d50252-a183-4d39-8ab0-c293e2063bf9"
+}

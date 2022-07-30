@@ -1,0 +1,16 @@
+{
+  "name": "AP Open Balance $",
+  "expression": [
+    "",
+    "SUM ( 'AP Open Balances'[Amount $] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AP Open Balance",
+  "lineageTag": "1898a497-a241-44b6-8536-49c4793ca25e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

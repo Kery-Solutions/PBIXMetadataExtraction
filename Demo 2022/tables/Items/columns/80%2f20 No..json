@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "80/20 No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[Percentile Weighted] > .2,",
+    "    1,",
+    "    IF ( NOT ( ISBLANK ( Items[Percentile Weighted] ) ), 2 )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "aa014882-fd82-4175-bf0e-018da3916b5a",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

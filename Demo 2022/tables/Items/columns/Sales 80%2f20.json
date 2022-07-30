@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Sales 80/20",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[Percentile Sales $ L12M] > .2,",
+    "    \"A\",",
+    "    IF ( NOT ( ISBLANK ( Items[Percentile Sales $ L12M] ) ), \"B\" )",
+    ")"
+  ],
+  "lineageTag": "2aa8a710-66a7-4c0c-9903-16144d82af22",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

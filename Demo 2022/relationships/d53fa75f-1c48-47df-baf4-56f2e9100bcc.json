@@ -1,0 +1,7 @@
+{
+  "name": "d53fa75f-1c48-47df-baf4-56f2e9100bcc",
+  "fromTable": "Open Purchase Orders",
+  "fromColumn": "Rec Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

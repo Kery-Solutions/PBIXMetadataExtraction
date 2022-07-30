@@ -1,0 +1,26 @@
+{
+  "name": "Posting Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Posting Date",
+  "formatString": "mm/dd/yy",
+  "lineageTag": "ba65c049-8dfd-4b86-8797-1ec6be6b75b6",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

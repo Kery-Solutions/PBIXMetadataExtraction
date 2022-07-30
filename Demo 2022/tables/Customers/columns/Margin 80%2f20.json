@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Margin 80/20",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[Percentile Margin $ L12M] > .2,",
+    "    \"A\",",
+    "    IF ( NOT ( ISBLANK ( Customers[Percentile Margin $ L12M] ) ), \"B\" )",
+    ")"
+  ],
+  "lineageTag": "ec0e39ed-7bdf-45c9-98ff-1d246e794c6e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

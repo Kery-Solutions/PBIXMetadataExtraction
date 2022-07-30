@@ -1,0 +1,13 @@
+{
+  "name": "Last Week",
+  "dataType": "string",
+  "sourceColumn": "Last Week",
+  "lineageTag": "487b35fb-8181-4980-aed9-8d426f6775ca",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

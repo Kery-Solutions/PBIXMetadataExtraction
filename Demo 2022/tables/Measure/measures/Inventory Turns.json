@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Turns",
+  "expression": [
+    "",
+    "MAX (",
+    "    DIVIDE ( [Inventory Turns Usage $], [Inventory Turns Average $] ),",
+    "    BLANK ()",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "066cbd1d-3fc5-4c88-b3e9-0f65adb3f5a1"
+}

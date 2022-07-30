@@ -1,0 +1,32 @@
+{
+  "name": "Vendors",
+  "lineageTag": "364242ff-7acb-4805-b024-a1dae61adf04",
+  "partitions": [
+    {
+      "name": "Vendors-d838ad16-a51e-48ba-adf0-3984e0afb884",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"e7bd0b4d-6b5d-48ed-a878-9445d0629a17\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"e7bd0b4d-6b5d-48ed-a878-9445d0629a17\"]}[Data],",
+          "    Vendors1 = #\"e7bd0b4d-6b5d-48ed-a878-9445d0629a17\"{[entity=\"Vendors\"]}[Data]",
+          "in",
+          "    Vendors1"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

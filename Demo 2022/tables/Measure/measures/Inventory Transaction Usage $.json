@@ -1,0 +1,19 @@
+{
+  "name": "Inventory Transaction Usage $",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Inventory Transaction $],",
+    "    FILTER ( 'Inventory Transactions', 'Inventory Transactions'[Usage] = \"Usage\" )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "1a010360-3cb8-4238-a55b-c9362eeae0d7",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

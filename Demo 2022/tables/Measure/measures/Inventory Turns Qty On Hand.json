@@ -1,0 +1,7 @@
+{
+  "name": "Inventory Turns Qty On Hand",
+  "expression": "SUM('Inventory (static)'[Qty])",
+  "formatString": "#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "a6aff2a4-15f6-4832-a57b-2b046ff23f0f"
+}

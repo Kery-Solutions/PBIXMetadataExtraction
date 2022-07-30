@@ -1,0 +1,7 @@
+{
+  "name": "d6d13e04-91c4-4a02-a7c0-a48d847e4159",
+  "fromTable": "Open Purchase Orders",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

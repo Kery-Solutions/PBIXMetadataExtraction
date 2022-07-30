@@ -1,0 +1,13 @@
+{
+  "name": "Refresh Timestamp",
+  "dataType": "string",
+  "sourceColumn": "Refresh Timestamp",
+  "lineageTag": "be786874-e7ed-4612-9362-a3f4a61bbbe2",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

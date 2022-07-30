@@ -1,0 +1,14 @@
+{
+  "name": "Sales History Active Customer Count",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNTNOBLANK ( Customers[Customer No.] ),",
+    "    FILTER ( ALL ( 'Calendar' ), 'Calendar'[Date] >= TODAY () - 365 ),",
+    "    FILTER ( ALL ( Customers ), [Sales History Qty] > 0 )",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Sales History",
+  "lineageTag": "4a13b9da-a31d-4f8b-9040-9a0489f49d4c"
+}

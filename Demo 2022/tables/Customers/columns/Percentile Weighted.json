@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Percentile Weighted",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    Customers[Percentile Sales $ L12M] * 5 + Customers[Percentile Margin $ L12M] * 3 + [Percentile Invoice L12M] * 2,",
+    "    10",
+    ")"
+  ],
+  "formatString": "0%;-0%;0%",
+  "lineageTag": "63fd5160-9d66-4650-b63b-ea888c4d3f39",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

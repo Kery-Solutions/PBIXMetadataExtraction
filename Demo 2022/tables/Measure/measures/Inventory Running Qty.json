@@ -1,0 +1,7 @@
+{
+  "name": "Inventory Running Qty",
+  "expression": "([Open Purchase Order KG Running] - [Open Sales Orders Orders Qty Open Running]) + [Inventory Qty On Hand]",
+  "formatString": "#,0",
+  "displayFolder": "Inventory Live",
+  "lineageTag": "d1c49920-98bf-4d11-a94e-ae4b0e9c8330"
+}

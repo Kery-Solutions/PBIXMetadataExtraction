@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Cost/KG",
+  "expression": "DIVIDE ( [Inventory Value $], [Inventory Qty On Hand] )",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Inventory Live",
+  "lineageTag": "54d99e2e-c10b-4ba9-8bb2-1ca26190d8c5",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

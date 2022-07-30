@@ -1,0 +1,12 @@
+{
+  "name": "Sales History $ LM",
+  "expression": "CALCULATE([Sales History $],DATEADD('Calendar'[Date],-28,DAY))",
+  "displayFolder": "Sales History",
+  "lineageTag": "2cd636d5-d08e-4c57-9c56-39a558ac5760",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

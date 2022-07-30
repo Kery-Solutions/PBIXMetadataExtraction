@@ -1,0 +1,7 @@
+{
+  "name": "6038661d-b71a-45de-b139-6fca5d6c8e1c",
+  "fromTable": "AP Open Balances",
+  "fromColumn": "Vendor No.",
+  "toTable": "Vendors",
+  "toColumn": "Vendor No."
+}

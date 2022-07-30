@@ -1,0 +1,14 @@
+{
+  "name": "Item No.",
+  "dataType": "int64",
+  "sourceColumn": "Item No.",
+  "formatString": "0",
+  "lineageTag": "7d195756-8a96-4bc3-aafe-9a468c1d1a69",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

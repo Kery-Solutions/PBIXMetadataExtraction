@@ -1,0 +1,15 @@
+{
+  "name": "Stagnant Days",
+  "dataType": "int64",
+  "sourceColumn": "Stagnant Days",
+  "formatString": "0",
+  "sourceProviderType": "bigint",
+  "lineageTag": "2f51199d-037c-4246-98e3-1f17fc26cbe6",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

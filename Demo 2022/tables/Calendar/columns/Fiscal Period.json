@@ -1,0 +1,13 @@
+{
+  "name": "Fiscal Period",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Period",
+  "lineageTag": "6ce9ca6c-5750-40f3-a00f-9f6a430ab4a8",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

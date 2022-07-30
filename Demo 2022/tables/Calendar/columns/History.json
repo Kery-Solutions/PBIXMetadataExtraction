@@ -1,0 +1,13 @@
+{
+  "name": "History",
+  "dataType": "string",
+  "sourceColumn": "History",
+  "lineageTag": "eb8f13d0-2436-4c96-9d31-a81250c8e60e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

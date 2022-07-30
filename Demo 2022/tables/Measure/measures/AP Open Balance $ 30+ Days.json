@@ -1,0 +1,19 @@
+{
+  "name": "AP Open Balance $ 30+ Days",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    'Measure'[AP Open Balance $],",
+    "    FILTER ( 'AP Open Balances', 'AP Open Balances'[Days Past Due] >= 30 )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AP Open Balance",
+  "lineageTag": "8dbe15f0-3420-4fe3-aab0-1b019d458a5d",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Open Sales Orders Oldest",
+  "expression": [
+    "",
+    "MIN ( 'Open Sales Orders'[Ship Date] )"
+  ],
+  "formatString": "Short Date",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "2ef9783e-7bc6-45b8-b23c-5277a99cceaf"
+}

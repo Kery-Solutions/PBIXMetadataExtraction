@@ -1,0 +1,13 @@
+{
+  "name": "YTD",
+  "dataType": "string",
+  "sourceColumn": "YTD",
+  "lineageTag": "dfd7f9aa-96c1-47ca-a7f4-3028612afde5",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

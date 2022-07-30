@@ -1,0 +1,17 @@
+{
+  "name": "Open Margin $",
+  "dataType": "double",
+  "sourceColumn": "Open Margin $",
+  "lineageTag": "ab05939f-2b42-4d0f-a488-51bddd5971c8",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

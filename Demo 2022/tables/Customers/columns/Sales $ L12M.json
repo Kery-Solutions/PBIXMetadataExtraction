@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Sales $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    SUM ( 'Sales History'[Sales $] ),",
+    "    FILTER ( 'Calendar', 'Calendar'[Date] >= TODAY () - 365 )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "lineageTag": "925e4d55-2ccc-4dcf-9bfe-36594e3e54fa",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

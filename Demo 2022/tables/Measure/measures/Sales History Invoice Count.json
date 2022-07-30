@@ -1,0 +1,10 @@
+{
+  "name": "Sales History Invoice Count",
+  "expression": [
+    "",
+    "DISTINCTCOUNTNOBLANK( 'Sales History'[Document No.] )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "45309c67-8542-4e39-b627-0bd9f69a0919"
+}

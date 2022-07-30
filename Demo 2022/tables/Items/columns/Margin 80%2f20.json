@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Margin 80/20",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[Percentile Margin $ L12M] > .2,",
+    "    \"A\",",
+    "    IF ( NOT ( ISBLANK ( Items[Percentile Margin $ L12M] ) ), \"B\" )",
+    ")"
+  ],
+  "lineageTag": "a4cffbdc-6751-435a-930f-4404e13eabe8",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

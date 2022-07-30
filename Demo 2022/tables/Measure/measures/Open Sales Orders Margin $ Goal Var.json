@@ -1,0 +1,16 @@
+{
+  "name": "Open Sales Orders Margin $ Goal Var",
+  "expression": [
+    "",
+    "[Open Sales Orders Margin $] - [Open Sales Orders Margin $ Goal]"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "dc90a195-fe7b-4eb0-8e7b-939f26b211e6",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

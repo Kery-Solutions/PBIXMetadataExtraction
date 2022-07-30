@@ -1,0 +1,14 @@
+{
+  "name": "Items Active Item Count",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DISTINCTCOUNTNOBLANK ( Items[Item No.] ),",
+    "    FILTER ( ALL ( 'Calendar' ), 'Calendar'[Date] >= TODAY () - 365 ),",
+    "    FILTER ( ALL ( 'Inventory Transactions' ), [Inventory Transaction Qty] > 0 )",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "Items",
+  "lineageTag": "b521cd1b-0c74-44b2-b652-f2e0c54a3550"
+}

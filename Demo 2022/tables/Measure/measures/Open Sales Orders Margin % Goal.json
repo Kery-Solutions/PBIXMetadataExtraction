@@ -1,0 +1,10 @@
+{
+  "name": "Open Sales Orders Margin % Goal",
+  "expression": [
+    "",
+    "[Sales Margin % Goal Value]"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "b3a23e6e-fc83-4163-96d5-a4d29cb9942f"
+}

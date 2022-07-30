@@ -1,0 +1,14 @@
+{
+  "name": "Zip",
+  "dataType": "int64",
+  "sourceColumn": "Zip",
+  "formatString": "0",
+  "lineageTag": "c057d209-c995-4e4e-8d7e-7d19aa721a7b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

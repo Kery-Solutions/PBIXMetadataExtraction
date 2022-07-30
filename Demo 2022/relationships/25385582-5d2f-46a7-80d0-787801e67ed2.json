@@ -1,0 +1,7 @@
+{
+  "name": "25385582-5d2f-46a7-80d0-787801e67ed2",
+  "fromTable": "Open Sales Orders",
+  "fromColumn": "Customer No.",
+  "toTable": "Customers",
+  "toColumn": "Customer No."
+}

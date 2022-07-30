@@ -1,0 +1,17 @@
+{
+  "name": "Open Cost $",
+  "dataType": "double",
+  "sourceColumn": "Open Cost $",
+  "lineageTag": "4c8ee66d-0649-4e13-84ce-e99fdebf35c0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

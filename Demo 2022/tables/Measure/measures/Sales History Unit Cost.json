@@ -1,0 +1,16 @@
+{
+  "name": "Sales History Unit Cost",
+  "expression": [
+    "",
+    "DIVIDE ( [Sales History Cost $], [Sales History Qty] )"
+  ],
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales History",
+  "lineageTag": "5bac5808-a18b-48ed-b941-43e9896d07db",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

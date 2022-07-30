@@ -1,0 +1,26 @@
+{
+  "name": "Inventory Turns Starting $",
+  "expression": [
+    "",
+    "VAR maxDate =",
+    "    MIN(MAX ( 'Calendar'[Date] ), TODAY())",
+    "RETURN",
+    "ROUND (",
+    "    [Inventory Turns Value $ On Hand]",
+    "        - CALCULATE (",
+    "            [Inventory Transaction $],",
+    "            FILTER ( ALL ( 'Calendar' ), 'Calendar'[Date] > maxDate - [Turns Scope Value] )",
+    "        ),",
+    "    0",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "6ea4a676-5ad6-47e4-a308-6430e2b108bc",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

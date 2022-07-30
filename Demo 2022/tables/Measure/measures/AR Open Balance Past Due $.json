@@ -1,0 +1,16 @@
+{
+  "name": "AR Open Balance Past Due $",
+  "expression": [
+    "",
+    "SUM ('AR Open Balances'[Past Due Amount] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Open Balance",
+  "lineageTag": "f0e0fabd-7d88-44db-a556-139051b66539",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

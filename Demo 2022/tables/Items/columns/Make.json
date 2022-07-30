@@ -1,0 +1,13 @@
+{
+  "name": "Make",
+  "dataType": "string",
+  "sourceColumn": "Make",
+  "lineageTag": "10d5c5db-ef3a-4fb7-b7a3-63eaed3136b3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

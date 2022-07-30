@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "Open Sales Orders Date Range",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    'Calendar'[Date]",
+    "        >= CALCULATE ( [Open Sales Orders Oldest], ALL ( 'Calendar' ) ) && 'Calendar'[Date] <= CALCULATE([Open Sales Orders Latest], ALL('Calendar')),",
+    "    1",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "474fbd45-a6af-4706-b5b1-79e5c2e926f7",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Open Sales Orders Orders $ Open Running",
+  "expression": [
+    "",
+    "VAR mDate = MAX('Calendar'[Date])",
+    "RETURN",
+    "CALCULATE([Open Sales Orders Open $], FILTER(ALL('Calendar'),'Calendar'[Date]<=mDate))"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "1798d8f5-b55e-4d5b-b6ee-3c12cb398bf0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

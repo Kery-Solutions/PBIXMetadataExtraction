@@ -1,0 +1,13 @@
+{
+  "name": "County",
+  "dataType": "string",
+  "sourceColumn": "County",
+  "lineageTag": "48c4b9ae-d5e1-4edc-93cf-6e1c950fd245",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

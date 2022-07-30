@@ -1,0 +1,25 @@
+{
+  "name": "AR Transactions Amount $ Running",
+  "expression": [
+    "",
+    "CALCULATE ( [AR Open Balance $], ALL ( 'Calendar' ) ) - ",
+    "CALCULATE(",
+    "\tSUM('AR Transactions'[Amount $]),",
+    "\tFILTER(",
+    "\t\tALL('Calendar'[Date]),",
+    "\t\tISAFTER('Calendar'[Date], MAX('Calendar'[Date]))",
+    "\t)",
+    ")",
+    "    // + CALCULATE ( [AR Open Balance $], ALL ( 'Calendar' ) )",
+    "    // - CALCULATE ( SUM ( 'AR Transactions'[Amount $] ), ALL ( 'Calendar' ) )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Transactions",
+  "lineageTag": "24a0e568-6d24-4f4b-86b4-e79642b43ca7",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

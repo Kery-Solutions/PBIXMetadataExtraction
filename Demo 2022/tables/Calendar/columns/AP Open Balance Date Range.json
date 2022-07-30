@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "AP Open Balance Date Range",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    'Calendar'[Date]",
+    "        >= CALCULATE ( [AP Open Balance Oldest Due], ALL ( 'Calendar' ) ),",
+    "    1",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "aef68069-4853-474b-87bf-39b015ccf083",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

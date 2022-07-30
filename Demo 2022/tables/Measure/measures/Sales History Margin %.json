@@ -1,0 +1,10 @@
+{
+  "name": "Sales History Margin %",
+  "expression": [
+    "",
+    "DIVIDE ( [Sales History Margin $], [Sales History $] )"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "Sales History",
+  "lineageTag": "0c2729f6-fa91-47d6-a77f-2db1b099ac6d"
+}

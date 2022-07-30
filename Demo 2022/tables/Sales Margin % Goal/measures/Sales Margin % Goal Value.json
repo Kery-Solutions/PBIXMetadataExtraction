@@ -1,0 +1,11 @@
+{
+  "name": "Sales Margin % Goal Value",
+  "expression": "DIVIDE ( SELECTEDVALUE('Sales Margin % Goal'[Sales Margin % Goal],35), 100 )",
+  "lineageTag": "888b1560-4ee9-4ad7-acc0-d5eec25ae0df",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

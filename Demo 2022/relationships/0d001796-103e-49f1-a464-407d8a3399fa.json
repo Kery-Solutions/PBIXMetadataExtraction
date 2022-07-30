@@ -1,0 +1,7 @@
+{
+  "name": "0d001796-103e-49f1-a464-407d8a3399fa",
+  "fromTable": "Purchase History",
+  "fromColumn": "Vendor No.",
+  "toTable": "Vendors",
+  "toColumn": "Vendor No."
+}

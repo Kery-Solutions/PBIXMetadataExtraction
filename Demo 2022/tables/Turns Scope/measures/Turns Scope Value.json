@@ -1,0 +1,7 @@
+{
+  "name": "Turns Scope Value",
+  "expression": "SELECTEDVALUE('Turns Scope'[Turns Scope], 28)",
+  "formatString": "0",
+  "isHidden": true,
+  "lineageTag": "eac82089-38d9-436f-b189-19fc568628a5"
+}

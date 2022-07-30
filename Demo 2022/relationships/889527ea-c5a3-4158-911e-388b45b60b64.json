@@ -1,0 +1,7 @@
+{
+  "name": "889527ea-c5a3-4158-911e-388b45b60b64",
+  "fromTable": "Sales History",
+  "fromColumn": "Document Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

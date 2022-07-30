@@ -1,0 +1,13 @@
+{
+  "name": "Open Sales Orders Margin $/Qty",
+  "expression": "DIVIDE([Open Sales Orders Margin $], [Open Sales Orders Qty Open])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "115b5592-c129-4a66-9a83-84ed4cfaf62a",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

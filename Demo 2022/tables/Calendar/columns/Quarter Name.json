@@ -1,0 +1,13 @@
+{
+  "name": "Quarter Name",
+  "dataType": "string",
+  "sourceColumn": "Quarter Name",
+  "lineageTag": "643d2929-0789-4452-a36d-87609b54c82e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

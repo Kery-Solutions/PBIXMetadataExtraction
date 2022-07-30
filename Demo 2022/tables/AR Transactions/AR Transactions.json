@@ -1,0 +1,28 @@
+{
+  "name": "AR Transactions",
+  "lineageTag": "84a6b3f6-f653-4ab2-aac1-d1b011d84936",
+  "partitions": [
+    {
+      "name": "AR Transactions-6163d574-9ad9-455d-9a34-dce05887dbdc",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"c253cd34-4bf8-471f-b4b0-69fc58345f5b\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"c253cd34-4bf8-471f-b4b0-69fc58345f5b\"]}[Data],",
+          "    #\"AR Transactions1\" = #\"c253cd34-4bf8-471f-b4b0-69fc58345f5b\"{[entity=\"AR Transactions\"]}[Data]",
+          "in",
+          "    #\"AR Transactions1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

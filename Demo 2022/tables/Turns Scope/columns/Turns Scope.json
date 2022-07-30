@@ -1,0 +1,27 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Turns Scope",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value]",
+  "formatString": "0",
+  "lineageTag": "e8388cf4-ff95-4efe-8fdf-498acad1f87c",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 0
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

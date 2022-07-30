@@ -1,0 +1,32 @@
+{
+  "name": "AP Open Balances",
+  "lineageTag": "4a528242-6210-4b33-a047-ee61582904c5",
+  "partitions": [
+    {
+      "name": "AP Open Balances-d3c7936d-0e78-4992-b206-97f30c3a80af",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"d14a5003-19b7-4b45-a517-d38666880b6a\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"d14a5003-19b7-4b45-a517-d38666880b6a\"]}[Data],",
+          "    #\"AP Open Balances1\" = #\"d14a5003-19b7-4b45-a517-d38666880b6a\"{[entity=\"AP Open Balances\"]}[Data]",
+          "in",
+          "    #\"AP Open Balances1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

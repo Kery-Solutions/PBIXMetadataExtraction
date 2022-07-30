@@ -1,0 +1,28 @@
+{
+  "name": "AP Transactions",
+  "lineageTag": "817eadbc-7f31-4f9b-99ab-f5375a847784",
+  "partitions": [
+    {
+      "name": "AP Transactions-483270c4-57c5-4662-b657-cf084c889c57",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"0d17999e-9e38-423b-b6ec-b2175f7dcfec\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"0d17999e-9e38-423b-b6ec-b2175f7dcfec\"]}[Data],",
+          "    #\"AP Transactions1\" = #\"0d17999e-9e38-423b-b6ec-b2175f7dcfec\"{[entity=\"AP Transactions\"]}[Data]",
+          "in",
+          "    #\"AP Transactions1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

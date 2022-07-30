@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "6 Month Split",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    'Calendar'[Date]",
+    "        >= DATE ( YEAR ( TODAY () ), MONTH ( TODAY () ) - 6, DAY ( TODAY () ) )",
+    "        && 'Calendar'[Date] <= TODAY (),",
+    "    \"6 Mo Split\"",
+    ")"
+  ],
+  "lineageTag": "b94d263a-740c-44ba-b57a-fd1c63c4a010",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

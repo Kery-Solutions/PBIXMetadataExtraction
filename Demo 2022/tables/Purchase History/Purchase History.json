@@ -1,0 +1,32 @@
+{
+  "name": "Purchase History",
+  "lineageTag": "848c2bf9-58df-4f56-ba18-ecf575d92337",
+  "partitions": [
+    {
+      "name": "Purchase History-4bd7e92c-8949-4ed7-bcec-40db0e64f476",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"91a617aa-9ed9-49f8-87f1-eb06c3d928e4\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"91a617aa-9ed9-49f8-87f1-eb06c3d928e4\"]}[Data],",
+          "    #\"Purchase History1\" = #\"91a617aa-9ed9-49f8-87f1-eb06c3d928e4\"{[entity=\"Purchase History\"]}[Data]",
+          "in",
+          "    #\"Purchase History1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

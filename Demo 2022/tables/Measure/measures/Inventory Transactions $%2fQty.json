@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Transactions $/Qty",
+  "expression": "DIVIDE ( [Inventory Turns Value $ On Hand], [Inventory Turns Qty On Hand] )",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Inventory Transactions",
+  "lineageTag": "c0dcb7f6-2d1b-4392-819a-2ffb67e2e41c",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

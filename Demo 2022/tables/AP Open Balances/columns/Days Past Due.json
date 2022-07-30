@@ -1,0 +1,15 @@
+{
+  "name": "Days Past Due",
+  "dataType": "int64",
+  "sourceColumn": "Days Past Due",
+  "formatString": "0",
+  "sourceProviderType": "bigint",
+  "lineageTag": "cfdd35de-1c76-44de-8802-3d0ab16f2885",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

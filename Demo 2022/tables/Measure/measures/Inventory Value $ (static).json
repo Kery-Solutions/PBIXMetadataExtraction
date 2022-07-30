@@ -1,0 +1,16 @@
+{
+  "name": "Inventory Value $ (static)",
+  "expression": [
+    "",
+    "SUM ( 'Inventory (static)'[Cost $] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Static",
+  "lineageTag": "affa3686-c423-4792-a8fc-0a6b73310924",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

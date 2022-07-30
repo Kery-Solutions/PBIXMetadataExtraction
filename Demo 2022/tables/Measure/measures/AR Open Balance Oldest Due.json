@@ -1,0 +1,10 @@
+{
+  "name": "AR Open Balance Oldest Due",
+  "expression": [
+    "",
+    "MIN ('AR Open Balances'[Due Date] )"
+  ],
+  "formatString": "Short Date",
+  "displayFolder": "AR Open Balance",
+  "lineageTag": "8cdd7784-cb24-4995-b89d-c66c6a0782ba"
+}

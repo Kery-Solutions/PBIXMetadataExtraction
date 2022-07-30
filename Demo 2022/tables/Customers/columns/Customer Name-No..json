@@ -1,0 +1,18 @@
+{
+  "type": "calculated",
+  "name": "Customer Name-No.",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "Customers[Customer Name] & \"-\" & Customers[Customer No.]"
+  ],
+  "lineageTag": "cdf530c1-37cb-4a4d-8469-02043f48eb27",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

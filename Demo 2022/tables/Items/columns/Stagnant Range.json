@@ -1,0 +1,14 @@
+{
+  "name": "Stagnant Range",
+  "dataType": "string",
+  "sourceColumn": "Stagnant Range",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "e01a95b2-8ebe-433d-8828-b977a4b978fc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

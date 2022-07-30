@@ -1,0 +1,32 @@
+{
+  "name": "Sales History",
+  "lineageTag": "ff1b4325-3c5b-4c30-a8a0-94126a2d62ee",
+  "partitions": [
+    {
+      "name": "Sales History-0f4e94b6-c6d5-4208-b085-e91a326097d3",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"846f87bc-0e02-45e7-9209-1eb525535353\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"846f87bc-0e02-45e7-9209-1eb525535353\"]}[Data],",
+          "    #\"Sales History1\" = #\"846f87bc-0e02-45e7-9209-1eb525535353\"{[entity=\"Sales History\"]}[Data]",
+          "in",
+          "    #\"Sales History1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

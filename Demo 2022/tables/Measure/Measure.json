@@ -1,0 +1,27 @@
+{
+  "name": "Measure",
+  "lineageTag": "9288435e-4cdf-4b78-b7fe-71d55bcadbe3",
+  "partitions": [
+    {
+      "name": "Measure-171bb889-c516-4e3a-96ac-8fb3cbd78492",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+          "in",
+          "    #\"Removed Columns\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

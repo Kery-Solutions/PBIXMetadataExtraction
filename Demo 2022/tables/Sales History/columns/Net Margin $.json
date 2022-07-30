@@ -1,0 +1,17 @@
+{
+  "name": "Net Margin $",
+  "dataType": "double",
+  "sourceColumn": "Net Margin $",
+  "lineageTag": "37037d5b-30e5-4716-8e15-8f477ac93237",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

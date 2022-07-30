@@ -1,0 +1,7 @@
+{
+  "name": "Purchase History Qty",
+  "expression": "SUM('Purchase History'[Qty])",
+  "formatString": "#,0",
+  "displayFolder": "Purchase History",
+  "lineageTag": "85f6d8a2-cd7c-498b-991b-626defa120fb"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "2a682c90-695e-4333-84aa-4a76a0c085c2",
+  "fromTable": "Inventory Transactions",
+  "fromColumn": "Posting Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

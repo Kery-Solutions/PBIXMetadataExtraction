@@ -1,0 +1,27 @@
+{
+  "name": "Due Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Due Date",
+  "formatString": "mm/dd/yy",
+  "sourceProviderType": "date",
+  "lineageTag": "5105fc16-9bc4-4dda-a959-1ba6a6dc712a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

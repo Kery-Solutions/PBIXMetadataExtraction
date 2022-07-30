@@ -1,0 +1,16 @@
+{
+  "type": "calculated",
+  "name": "80/20 No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF(Customers[Percentile Weighted] > .2, 1, 2)",
+  "formatString": "0",
+  "lineageTag": "78179b08-4337-43a2-b3b0-ce0e12c201f0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

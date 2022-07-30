@@ -1,0 +1,18 @@
+{
+  "name": "Weekday",
+  "dataType": "string",
+  "sourceColumn": "Weekday",
+  "sortByColumn": "Weekday No.",
+  "lineageTag": "22cad3f6-077e-4fd6-9a4e-6c0b8ed38a23",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

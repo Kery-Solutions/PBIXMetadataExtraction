@@ -1,0 +1,13 @@
+{
+  "name": "MTD LY",
+  "dataType": "string",
+  "sourceColumn": "MTD LY",
+  "lineageTag": "e454eb81-8637-4778-b4c5-9adb4a31cb6b",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Rank Sales $ L12M",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = ",
+    "RANKX (",
+    "    FILTER ( Customers, NOT ( ISBLANK ( [Sales $ L12M] ) ) ),",
+    "    Customers[Projected Sales $ L12M]",
+    ")",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( [Sales $ L12M] ) ), rnk )"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "049c42fb-9b90-41fb-b257-3032e404780b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Qty",
+  "dataType": "int64",
+  "sourceColumn": "Qty",
+  "lineageTag": "ffbd89a2-1fef-4340-8fcc-044e208262db",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

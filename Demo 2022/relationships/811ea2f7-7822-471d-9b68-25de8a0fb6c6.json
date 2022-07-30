@@ -1,0 +1,7 @@
+{
+  "name": "811ea2f7-7822-471d-9b68-25de8a0fb6c6",
+  "fromTable": "AP Open Balances",
+  "fromColumn": "Due Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

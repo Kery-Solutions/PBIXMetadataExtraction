@@ -1,0 +1,26 @@
+{
+  "type": "calculated",
+  "name": "New Customer Scale",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[First Sale]",
+    "        > TODAY () - 365,",
+    "    DIVIDE ( VALUE ( TODAY () ) - VALUE ( Customers[First Sale] ), 365 )",
+    ")"
+  ],
+  "lineageTag": "0adb4fd5-2138-4228-8700-69505c04e17e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

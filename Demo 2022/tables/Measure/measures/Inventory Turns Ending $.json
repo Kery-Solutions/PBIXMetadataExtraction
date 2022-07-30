@@ -1,0 +1,20 @@
+{
+  "name": "Inventory Turns Ending $",
+  "expression": [
+    "",
+    "[Inventory Turns Value $ On Hand]",
+    "    - CALCULATE (",
+    "        [Inventory Transaction $],",
+    "        FILTER ( ALL ( 'Calendar' ), 'Calendar'[Date] > MAX ( 'Calendar'[Date] ) )",
+    "    )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "07a3de77-efc7-4844-8fce-28d70eb80a63",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

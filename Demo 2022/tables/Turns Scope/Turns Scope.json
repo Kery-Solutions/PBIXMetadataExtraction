@@ -1,0 +1,21 @@
+{
+  "name": "Turns Scope",
+  "isHidden": true,
+  "lineageTag": "b797d648-321a-4619-830b-97fd27a4c59c",
+  "partitions": [
+    {
+      "name": "Turns Scope-dbbdf8fd-3ef3-4a18-94a4-d8bcd93b8db8",
+      "mode": "import",
+      "source": {
+        "type": "calculated",
+        "expression": "GENERATESERIES(28, 365, 1)"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "4453d25c1feb4672aa34bcdbac5fe14e"
+    }
+  ]
+}

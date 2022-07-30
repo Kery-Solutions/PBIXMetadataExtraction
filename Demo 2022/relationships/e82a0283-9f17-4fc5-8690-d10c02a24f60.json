@@ -1,0 +1,7 @@
+{
+  "name": "e82a0283-9f17-4fc5-8690-d10c02a24f60",
+  "fromTable": "Purchase History",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

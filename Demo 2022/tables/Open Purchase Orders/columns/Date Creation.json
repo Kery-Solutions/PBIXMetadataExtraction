@@ -1,0 +1,27 @@
+{
+  "name": "Date Creation",
+  "dataType": "dateTime",
+  "sourceColumn": "Date Creation",
+  "formatString": "mm/dd/yy",
+  "sourceProviderType": "date",
+  "lineageTag": "91631c3e-472a-4e8b-bbd5-ed9fa1899c54",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

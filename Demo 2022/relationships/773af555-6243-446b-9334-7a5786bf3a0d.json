@@ -1,0 +1,7 @@
+{
+  "name": "773af555-6243-446b-9334-7a5786bf3a0d",
+  "fromTable": "Purchase History",
+  "fromColumn": "Posting Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

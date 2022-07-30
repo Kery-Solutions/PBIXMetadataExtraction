@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Items A %",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DIVIDE (",
+    "        CALCULATE ( [Sales History $], FILTER ( Items, 'Items'[80/20] = \"A\" ) ),",
+    "        [Sales History $]",
+    "    ),",
+    "    FILTER ( 'Calendar', 'Calendar'[Date] >= TODAY () - 365 )",
+    ")"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "ab82f210-a051-4607-9c24-0111086fef1a",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

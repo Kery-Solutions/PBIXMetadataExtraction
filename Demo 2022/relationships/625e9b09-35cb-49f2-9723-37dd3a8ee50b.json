@@ -1,0 +1,8 @@
+{
+  "name": "625e9b09-35cb-49f2-9723-37dd3a8ee50b",
+  "fromTable": "AR Open Balances",
+  "fromColumn": "Customer No.",
+  "toTable": "Customers",
+  "toColumn": "Customer No.",
+  "relyOnReferentialIntegrity": true
+}

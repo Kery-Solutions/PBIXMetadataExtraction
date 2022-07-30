@@ -1,0 +1,16 @@
+{
+  "name": "Inventory Transactions Last Usage",
+  "expression": [
+    "",
+    "IF (",
+    "    DISTINCTCOUNTNOBLANK ( Items[Item No.] ) = 1,",
+    "    CALCULATE (",
+    "        MAX ( 'Inventory Transactions'[Posting Date] ),",
+    "        FILTER ( 'Inventory Transactions', [Inventory Turns Usage $] > 0 )",
+    "    )",
+    ")"
+  ],
+  "formatString": "Short Date",
+  "displayFolder": "Inventory Transactions",
+  "lineageTag": "be250f7f-68c1-4569-b348-b3a4e24984c6"
+}

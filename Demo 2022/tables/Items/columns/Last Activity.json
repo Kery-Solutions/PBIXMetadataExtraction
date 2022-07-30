@@ -1,0 +1,19 @@
+{
+  "name": "Last Activity",
+  "dataType": "dateTime",
+  "sourceColumn": "Last Activity",
+  "formatString": "Short Date",
+  "sourceProviderType": "date",
+  "lineageTag": "50450cfd-3f34-420f-a77c-b0f153795a05",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

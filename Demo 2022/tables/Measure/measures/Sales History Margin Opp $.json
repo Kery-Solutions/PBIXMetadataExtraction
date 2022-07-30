@@ -1,0 +1,19 @@
+{
+  "name": "Sales History Margin Opp $",
+  "expression": [
+    "",
+    "SUMX ( ",
+    "    'Sales History',",
+    "    MAX ( [Sales History Margin $ Goal] - [Sales History Margin $], 0 )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "8571d4a0-f665-4071-8440-34465174e6ef",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

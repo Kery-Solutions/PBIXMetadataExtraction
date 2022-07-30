@@ -1,0 +1,31 @@
+{
+  "type": "calculated",
+  "name": "Percentile Invoice L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = 'Customers'[Rank Invoice L12M]",
+    "VAR perc = ",
+    "    1",
+    "        - DIVIDE (",
+    "            CALCULATE (",
+    "                SUM ( Customers[Projected Invoice L12M] ),",
+    "                ALL ( 'Customers' ),",
+    "                'Customers'[Rank Invoice L12M] <= rnk",
+    "            ),",
+    "            CALCULATE ( SUM ( Customers[Projected Invoice L12M] ), ALL ( 'Customers' ) )",
+    "        )",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( [Invoice L12M] ) ), perc )"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "ee881a86-d323-4e1c-9c12-b115e6881481",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

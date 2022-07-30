@@ -1,0 +1,27 @@
+{
+  "name": "Rec Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Rec Date",
+  "formatString": "mm/dd/yy",
+  "sourceProviderType": "date",
+  "lineageTag": "bd99fac2-81ac-4962-99d9-6304bf4ab395",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

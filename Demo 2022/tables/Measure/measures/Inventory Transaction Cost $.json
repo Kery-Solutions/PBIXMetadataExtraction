@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Transaction Cost $",
+  "expression": "SUM('Inventory Transactions'[Cost Amount])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Transactions",
+  "lineageTag": "17766f0c-e32f-4585-8c7a-1479a1806107",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

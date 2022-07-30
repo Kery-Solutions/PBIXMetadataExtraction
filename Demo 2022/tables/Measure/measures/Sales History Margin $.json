@@ -1,0 +1,13 @@
+{
+  "name": "Sales History Margin $",
+  "expression": "SUM('Sales History'[Net Margin $])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "68a58aa4-c763-4a2f-bea0-8e62eab7fd9a",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

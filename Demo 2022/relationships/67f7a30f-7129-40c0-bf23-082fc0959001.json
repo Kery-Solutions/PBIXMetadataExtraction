@@ -1,0 +1,7 @@
+{
+  "name": "67f7a30f-7129-40c0-bf23-082fc0959001",
+  "fromTable": "Inventory (static)",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

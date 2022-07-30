@@ -1,0 +1,27 @@
+{
+  "type": "calculated",
+  "name": "Projected Sales $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[First Sale]",
+    "        > TODAY () - 365,",
+    "    DIVIDE (",
+    "        Items[Sales $ L12M],",
+    "        DIVIDE ( VALUE ( TODAY () ) - VALUE ( Items[First Sale] ), 365 )",
+    "    ),",
+    "    Items[Sales $ L12M]",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "lineageTag": "5d4c1f3b-6fd8-4772-8377-c525e864c774",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

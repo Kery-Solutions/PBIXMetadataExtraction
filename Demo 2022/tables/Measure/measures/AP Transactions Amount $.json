@@ -1,0 +1,19 @@
+{
+  "name": "AP Transactions Amount $",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    SUM ( 'AP Transactions'[Amount $] ),",
+    "    FILTER ( 'AP Transactions', 'AP Transactions'[Document Type] IN { \"2\", \"3\" } )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AP Transactions",
+  "lineageTag": "f4ff786f-9b24-48f3-91bf-178be7bbfadd",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

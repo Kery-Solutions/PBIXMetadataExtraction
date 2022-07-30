@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "Sales 80/20 No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[Percentile Sales $ L12M] > .2,",
+    "    1,",
+    "    IF ( NOT ( ISBLANK ( Customers[Percentile Sales $ L12M] ) ), 2 )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "9ea8ef83-f389-4236-9ee9-a59958ce9aff",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

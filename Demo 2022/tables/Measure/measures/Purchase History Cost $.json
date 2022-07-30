@@ -1,0 +1,13 @@
+{
+  "name": "Purchase History Cost $",
+  "expression": "SUM('Purchase History'[Cost $])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Purchase History",
+  "lineageTag": "8284e9f5-df3e-4f8f-9946-f8dda3269b94",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

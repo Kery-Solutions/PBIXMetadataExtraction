@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "Margin $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Sales History Margin $],",
+    "    FILTER ( 'Calendar', 'Calendar'[Date] >= TODAY () - 365 )",
+    ")",
+    ""
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "lineageTag": "f553f8d7-ecae-49e1-ba60-84a7a0656c5b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

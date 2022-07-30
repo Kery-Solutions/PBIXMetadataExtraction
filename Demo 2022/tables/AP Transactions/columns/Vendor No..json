@@ -1,0 +1,14 @@
+{
+  "name": "Vendor No.",
+  "dataType": "int64",
+  "sourceColumn": "Vendor No.",
+  "formatString": "0",
+  "lineageTag": "a153eda4-6d6b-48cd-b2c1-830bdef02463",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

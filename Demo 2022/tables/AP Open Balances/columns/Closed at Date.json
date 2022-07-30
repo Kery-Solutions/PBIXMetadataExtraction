@@ -1,0 +1,27 @@
+{
+  "name": "Closed at Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Closed at Date",
+  "formatString": "mm/dd/yy",
+  "sourceProviderType": "date",
+  "lineageTag": "eb2573fa-4acd-4aed-8352-4a9cc4e2ff5f",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "WTD LY",
+  "dataType": "string",
+  "sourceColumn": "WTD LY",
+  "lineageTag": "8f36a01c-5861-4302-b352-a711870046be",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

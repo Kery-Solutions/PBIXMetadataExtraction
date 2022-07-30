@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Rank Invoice L12M",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = ",
+    "RANKX (",
+    "    FILTER ( Customers, NOT ( ISBLANK ( [Invoice L12M] ) ) ),",
+    "    Customers[Projected Invoice L12M]",
+    ")",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( [Invoice L12M] ) ), rnk )"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "e7e03abd-1a23-4c70-a719-daa04ab3b436",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sales History Margin $ LY Var",
+  "expression": [
+    "",
+    "[Sales History Margin $] - [Sales History Margin $ LY]"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "833c2c20-2e6f-40d5-bd4d-96e056cc4fa8",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

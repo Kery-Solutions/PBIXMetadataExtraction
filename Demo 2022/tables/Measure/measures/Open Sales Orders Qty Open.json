@@ -1,0 +1,7 @@
+{
+  "name": "Open Sales Orders Qty Open",
+  "expression": "SUM('Open Sales Orders'[Qty Open])",
+  "formatString": "#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "6aa97673-71d9-4e53-9af7-c96c5f813a75"
+}

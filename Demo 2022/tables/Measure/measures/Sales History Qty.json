@@ -1,0 +1,16 @@
+{
+  "name": "Sales History Qty",
+  "expression": [
+    "",
+    "SUM ( 'Sales History'[Qty] )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "1f8efbbd-8d8c-4bd3-95d2-02b55408fca6",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

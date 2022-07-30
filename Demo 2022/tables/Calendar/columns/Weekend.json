@@ -1,0 +1,13 @@
+{
+  "name": "Weekend",
+  "dataType": "string",
+  "sourceColumn": "Weekend",
+  "lineageTag": "fd353e89-b14c-400e-8007-f58571d5caba",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

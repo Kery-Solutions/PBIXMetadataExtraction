@@ -1,0 +1,18 @@
+{
+  "name": "Amount $",
+  "dataType": "double",
+  "sourceColumn": "Amount $",
+  "sourceProviderType": "double",
+  "lineageTag": "d906da39-1eb4-4935-ab22-fb35064a1732",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

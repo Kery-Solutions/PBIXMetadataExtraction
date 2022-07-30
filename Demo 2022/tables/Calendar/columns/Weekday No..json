@@ -1,0 +1,13 @@
+{
+  "name": "Weekday No.",
+  "dataType": "string",
+  "sourceColumn": "Weekday No.",
+  "lineageTag": "1504f181-0e2a-4b07-8a9c-58f1896ae9e8",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Inventory (static)",
+  "lineageTag": "6e41ff44-0cf7-46f0-bd99-56de5e98e5a4",
+  "partitions": [
+    {
+      "name": "Inventory (static)-14079fe8-3385-46da-8f8b-68b1932e7452",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"8f449656-0319-4c9f-a0d4-e48e0935eadd\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"8f449656-0319-4c9f-a0d4-e48e0935eadd\"]}[Data],",
+          "    Inventory1 = #\"8f449656-0319-4c9f-a0d4-e48e0935eadd\"{[entity=\"Inventory\"]}[Data]",
+          "in",
+          "    Inventory1"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

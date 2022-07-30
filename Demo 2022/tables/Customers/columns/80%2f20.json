@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "80/20",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[Percentile Weighted] > .2,",
+    "    \"A\",",
+    "    IF ( NOT ( ISBLANK ( Customers[Percentile Sales $ L12M] ) ), \"B\" )",
+    ")"
+  ],
+  "lineageTag": "bbb2a00d-46a6-48cd-9845-d7e257b556e9",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

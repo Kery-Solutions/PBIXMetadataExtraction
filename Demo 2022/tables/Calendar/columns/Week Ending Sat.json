@@ -1,0 +1,26 @@
+{
+  "name": "Week Ending Sat",
+  "dataType": "dateTime",
+  "sourceColumn": "Week Ending Sat",
+  "formatString": "mm/dd/yy",
+  "lineageTag": "2671d78b-4f1a-42ef-870a-8137f28ee2c1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

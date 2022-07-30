@@ -1,0 +1,18 @@
+{
+  "name": "Open $",
+  "dataType": "double",
+  "sourceColumn": "Open $",
+  "sourceProviderType": "decimal",
+  "lineageTag": "90a2d70d-75b5-4623-b9a5-67c39aa65d2c",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

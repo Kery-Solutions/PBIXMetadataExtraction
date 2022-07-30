@@ -1,0 +1,10 @@
+{
+  "name": "Aging Inventory Running KG 09+ Var",
+  "expression": [
+    "",
+    "[Aging Inventory Running KG 09+] - [Aging Inventory Running KG 09+ LM]"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "271472ec-6d44-413d-9145-a0863956224b"
+}

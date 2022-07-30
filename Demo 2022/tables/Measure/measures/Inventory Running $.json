@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Running $",
+  "expression": "([Open Purchase Order $ Running] - [Open Sales Orders Orders $ Open Running]) + [Inventory Value $]",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Live",
+  "lineageTag": "a8b8abf9-53db-4491-852f-04181f74ec35",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Customers",
+  "lineageTag": "72e6cd32-3148-467f-9fc8-5f1e2710a375",
+  "partitions": [
+    {
+      "name": "Customers-911e5f04-a201-40dc-b9c6-d8be68c1bc76",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"44f970df-d17d-42ab-97fd-cd955b1b173a\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"44f970df-d17d-42ab-97fd-cd955b1b173a\"]}[Data],",
+          "    Customers1 = #\"44f970df-d17d-42ab-97fd-cd955b1b173a\"{[entity=\"Customers\"]}[Data]",
+          "in",
+          "    Customers1"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

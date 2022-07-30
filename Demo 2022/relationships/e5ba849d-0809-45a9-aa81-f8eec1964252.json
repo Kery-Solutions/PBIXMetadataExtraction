@@ -1,0 +1,7 @@
+{
+  "name": "e5ba849d-0809-45a9-aa81-f8eec1964252",
+  "fromTable": "AR Transactions",
+  "fromColumn": "Customer No.",
+  "toTable": "Customers",
+  "toColumn": "Customer No."
+}

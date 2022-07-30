@@ -1,0 +1,24 @@
+{
+  "name": "AP Transactions Amount $ Running",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "\tSUM('AP Transactions'[Amount $]),",
+    "\tFILTER(",
+    "\t\tALL('Calendar'[Date]),",
+    "\t\tISONORAFTER('Calendar'[Date], MAX('Calendar'[Date]), DESC)",
+    "\t)",
+    ")",
+    "    // + CALCULATE ( [AP Open Balance $], ALL ( 'CalendAP' ) )",
+    "    // - CALCULATE ( SUM ( 'AP Transactions'[Amount $] ), ALL ( 'CalendAP' ) )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AP Transactions",
+  "lineageTag": "43929b49-05d7-4744-89e5-b19418681b4e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

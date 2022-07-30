@@ -1,0 +1,13 @@
+{
+  "name": "Open Purchase Order KG Running",
+  "expression": [
+    "",
+    "VAR mDate = MAX('Calendar'[Date])",
+    "RETURN",
+    "CALCULATE([Open Purchase Order KG], FILTER(ALL('Calendar'),'Calendar'[Date]<=mDate))"
+  ],
+  "formatString": "#,0",
+  "isHidden": true,
+  "displayFolder": "Open Purchase Orders",
+  "lineageTag": "87f18124-472e-4543-8343-082606a645fb"
+}

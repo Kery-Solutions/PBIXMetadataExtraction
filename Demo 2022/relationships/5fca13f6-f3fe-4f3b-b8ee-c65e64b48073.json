@@ -1,0 +1,8 @@
+{
+  "name": "5fca13f6-f3fe-4f3b-b8ee-c65e64b48073",
+  "fromTable": "Inventory",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No.",
+  "relyOnReferentialIntegrity": true
+}

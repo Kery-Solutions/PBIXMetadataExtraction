@@ -1,0 +1,13 @@
+{
+  "name": "Range No.",
+  "dataType": "string",
+  "sourceColumn": "Range No.",
+  "lineageTag": "766a6124-9575-4c5e-b440-016a0ca7b761",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

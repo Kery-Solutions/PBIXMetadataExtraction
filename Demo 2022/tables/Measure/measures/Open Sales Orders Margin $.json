@@ -1,0 +1,13 @@
+{
+  "name": "Open Sales Orders Margin $",
+  "expression": "SUM('Open Sales Orders'[Open Margin $])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "bb234017-3370-4810-b102-fd808fff2cc3",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

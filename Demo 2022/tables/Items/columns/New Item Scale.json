@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "New Item Scale",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[First Sale]",
+    "        > TODAY () - 365,",
+    "    DIVIDE ( VALUE ( TODAY () ) - VALUE ( Items[First Sale] ), 365 )",
+    ")"
+  ],
+  "formatString": "0.00",
+  "lineageTag": "4f65f29a-497f-4ecd-b6e9-9915ad1e241e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

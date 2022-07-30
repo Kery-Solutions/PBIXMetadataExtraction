@@ -1,0 +1,16 @@
+{
+  "name": "Inventory Turns (Days)",
+  "expression": [
+    "",
+    "MIN ( DIVIDE ( [Turns Scope Value], [Inventory Turns]),1000 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "227554b9-05b7-4d5e-9e00-43a8f67ca2ff",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

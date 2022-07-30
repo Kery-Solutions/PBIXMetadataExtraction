@@ -1,0 +1,19 @@
+{
+  "name": "Range",
+  "dataType": "string",
+  "sourceColumn": "Range",
+  "sortByColumn": "Range No.",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "c1a72ed3-3416-4527-aac1-fa6777ce462e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

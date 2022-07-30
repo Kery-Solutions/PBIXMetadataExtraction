@@ -1,0 +1,14 @@
+{
+  "name": "Description",
+  "dataType": "string",
+  "sourceColumn": "Description",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "7d1d3487-a6c3-4c99-b684-c54da0dddab3",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

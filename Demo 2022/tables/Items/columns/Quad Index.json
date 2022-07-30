@@ -1,0 +1,45 @@
+{
+  "type": "calculated",
+  "name": "Quad Index",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR quad = ",
+    "IF (",
+    "    Items[80/20] = \"A\"",
+    "        && Items[Customers A %] = 1,",
+    "    \"Pure A\",",
+    "    IF (",
+    "        Items[80/20] = \"A\"",
+    "            && Items[Customers A %] >= .8,",
+    "        \"High A\",",
+    "        IF (",
+    "            Items[80/20] = \"A\"",
+    "                && Items[Customers A %] < .8,",
+    "            \"Low A\",",
+    "            IF (",
+    "                Items[80/20] = \"B\"",
+    "                    && Items[Customers A %] >= .8,",
+    "                \"High B\",",
+    "                IF ( Items[80/20] = \"B\" && Items[Customers A %] > 0, \"Low B\", \"Pure B\" )",
+    "            )",
+    "        )",
+    "    )",
+    ")",
+    "RETURN ",
+    "IF ( ",
+    "    NOT ( ISBLANK ( 'Items'[80/20] ) ),",
+    "    quad",
+    ")"
+  ],
+  "sortByColumn": "Quad Index No.",
+  "lineageTag": "2201208c-7068-4204-9b37-7bbc56e3a4db",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

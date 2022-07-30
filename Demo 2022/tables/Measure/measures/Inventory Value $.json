@@ -1,0 +1,16 @@
+{
+  "name": "Inventory Value $",
+  "expression": [
+    "",
+    "SUM ( 'Inventory'[Cost $] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Live",
+  "lineageTag": "4a06ea43-5565-4783-b7f3-8becfd836324",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

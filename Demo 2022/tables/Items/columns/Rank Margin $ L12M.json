@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Rank Margin $ L12M",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = ",
+    "RANKX (",
+    "    FILTER ( Items, NOT ( ISBLANK ( Items[Margin $ L12M] ) ) ),",
+    "    Items[Projected Margin $ L12M]",
+    ")",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( Items[Margin $ L12M] ) ), rnk )"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "30091f2a-062b-4aba-a021-d8fa4d099f19",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

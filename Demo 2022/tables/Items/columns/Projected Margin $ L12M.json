@@ -1,0 +1,27 @@
+{
+  "type": "calculated",
+  "name": "Projected Margin $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Items[First Sale]",
+    "        > TODAY () - 365,",
+    "    DIVIDE (",
+    "        Items[Margin $ L12M],",
+    "        DIVIDE ( VALUE ( TODAY () ) - VALUE ( Items[First Sale] ), 365 )",
+    "    ),",
+    "    Items[Margin $ L12M]",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "lineageTag": "7383e017-b86b-461e-8489-9aa3c59fa1f9",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

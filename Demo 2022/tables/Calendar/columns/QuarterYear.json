@@ -1,0 +1,18 @@
+{
+  "name": "QuarterYear",
+  "dataType": "string",
+  "sourceColumn": "QuarterYear",
+  "sortByColumn": "YearQuarter No.",
+  "lineageTag": "4923f7ec-71ce-45e3-8455-0be5345db259",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

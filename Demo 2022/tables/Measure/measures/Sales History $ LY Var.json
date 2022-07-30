@@ -1,0 +1,16 @@
+{
+  "name": "Sales History $ LY Var",
+  "expression": [
+    "",
+    "[Sales History $] - [Sales History $ LY]"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "c088d307-ca82-4901-8b10-3a71df404861",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"\"}"
+    }
+  ]
+}

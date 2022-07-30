@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Unit Cost (static)",
+  "expression": "DIVIDE ( [Inventory Value $ (static)], [Inventory Qty On Hand (static)] )",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Static",
+  "lineageTag": "d9ee0686-6aae-4071-819e-9567516a290e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

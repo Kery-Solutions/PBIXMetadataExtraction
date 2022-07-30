@@ -1,0 +1,26 @@
+{
+  "name": "Document Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Document Date",
+  "formatString": "mm/dd/yy",
+  "lineageTag": "3f0aabd5-1a04-44fa-873f-fbf6140ff149",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

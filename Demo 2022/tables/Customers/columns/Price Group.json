@@ -1,0 +1,14 @@
+{
+  "name": "Price Group",
+  "dataType": "string",
+  "sourceColumn": "Price Group",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "5229602d-13fb-4657-a353-91c3c834ead5",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

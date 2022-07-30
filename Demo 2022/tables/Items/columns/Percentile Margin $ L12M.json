@@ -1,0 +1,31 @@
+{
+  "type": "calculated",
+  "name": "Percentile Margin $ L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR rnk = 'Items'[Rank Margin $ L12M]",
+    "VAR perc = ",
+    "    1",
+    "        - DIVIDE (",
+    "            CALCULATE (",
+    "                SUM ( Items[Projected Margin $ L12M] ),",
+    "                ALL ( 'Items' ),",
+    "                'Items'[Rank Margin $ L12M] <= rnk",
+    "            ),",
+    "            CALCULATE ( SUM ( Items[Projected Margin $ L12M] ), ALL ( 'Items' ) )",
+    "        )",
+    "RETURN",
+    "IF ( NOT ( ISBLANK ( Items[Margin $ L12M] ) ), perc )"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "f5d12076-53f0-45d3-a2a7-b1ce6ceb442e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

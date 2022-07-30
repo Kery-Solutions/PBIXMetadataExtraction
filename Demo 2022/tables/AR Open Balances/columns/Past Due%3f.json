@@ -1,0 +1,14 @@
+{
+  "name": "Past Due?",
+  "dataType": "string",
+  "sourceColumn": "Past Due?",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "164b818e-7665-42ca-9454-8f48121748c1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

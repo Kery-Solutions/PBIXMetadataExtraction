@@ -1,0 +1,19 @@
+{
+  "name": "AR Transactions Amount $",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    SUM ( 'AR Transactions'[Amount $] ),",
+    "    FILTER ( 'AR Transactions', 'AR Transactions'[Document Type] IN { \"2\", \"3\" } )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Transactions",
+  "lineageTag": "aa2847dd-da87-410c-bed2-b07fe4aeacc1",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

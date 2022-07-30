@@ -1,0 +1,28 @@
+{
+  "name": "Open Sales Orders",
+  "lineageTag": "43ab2ce2-e3f3-4f8a-9603-113eee9df562",
+  "partitions": [
+    {
+      "name": "Open Sales Orders-41d16ad7-9865-4ca5-b3cd-25f7c15518fb",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"b72810e0-f46e-49ee-919e-3133281da77c\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"b72810e0-f46e-49ee-919e-3133281da77c\"]}[Data],",
+          "    #\"Sales Orders\" = #\"b72810e0-f46e-49ee-919e-3133281da77c\"{[entity=\"Sales Orders\"]}[Data]",
+          "in",
+          "    #\"Sales Orders\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

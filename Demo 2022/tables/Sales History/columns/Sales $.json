@@ -1,0 +1,17 @@
+{
+  "name": "Sales $",
+  "dataType": "double",
+  "sourceColumn": "Sales $",
+  "lineageTag": "c01809f9-2d81-47fa-a9d5-02dc5f8e04ca",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

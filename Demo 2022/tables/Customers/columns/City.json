@@ -1,0 +1,14 @@
+{
+  "name": "City",
+  "dataType": "string",
+  "sourceColumn": "City",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "4679ec8c-9608-4717-b4d2-47c660565fde",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

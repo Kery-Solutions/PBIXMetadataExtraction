@@ -1,0 +1,28 @@
+{
+  "name": "AR Open Balances",
+  "lineageTag": "5b5471bb-39dd-425b-9096-5fe0fa984095",
+  "partitions": [
+    {
+      "name": "AR Open Balances-ee424a7a-319d-42ff-8f18-d33f29999b0d",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"5e97a481-34f2-4ed1-837e-bb5f8d6050e4\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"5e97a481-34f2-4ed1-837e-bb5f8d6050e4\"]}[Data],",
+          "    #\"AR Open Balances1\" = #\"5e97a481-34f2-4ed1-837e-bb5f8d6050e4\"{[entity=\"AR Open Balances\"]}[Data]",
+          "in",
+          "    #\"AR Open Balances1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

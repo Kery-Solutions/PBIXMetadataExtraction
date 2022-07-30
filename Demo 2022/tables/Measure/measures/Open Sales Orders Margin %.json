@@ -1,0 +1,12 @@
+{
+  "name": "Open Sales Orders Margin %",
+  "expression": [
+    "",
+    "DIVIDE ( ",
+    "    [Open Sales Orders Margin $], [Open Sales Orders Open $] ",
+    ")"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "fc5c72a0-c4a1-411b-8f68-1e4473b84725"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Sales History Margin % Goal",
+  "expression": [
+    "",
+    "[Sales Margin % Goal Value]"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "Sales History",
+  "lineageTag": "99427e54-8c31-4175-9978-a6977f81a4d9"
+}

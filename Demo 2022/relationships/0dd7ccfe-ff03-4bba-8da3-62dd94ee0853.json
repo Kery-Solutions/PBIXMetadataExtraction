@@ -1,0 +1,7 @@
+{
+  "name": "0dd7ccfe-ff03-4bba-8da3-62dd94ee0853",
+  "fromTable": "AR Open Balances",
+  "fromColumn": "Due Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

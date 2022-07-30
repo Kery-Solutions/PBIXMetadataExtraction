@@ -1,0 +1,7 @@
+{
+  "name": "d2abfe84-6031-421d-9c5b-a0adf4980845",
+  "fromTable": "Inventory Transactions",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

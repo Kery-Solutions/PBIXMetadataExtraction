@@ -1,0 +1,16 @@
+{
+  "type": "calculated",
+  "name": ">9 Months No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF ( NOT ( ISBLANK ( [>9 Months] ) ), 1 )",
+  "formatString": "0",
+  "lineageTag": "18ab8f07-3b8a-496d-95bc-c6f693d44fcc",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

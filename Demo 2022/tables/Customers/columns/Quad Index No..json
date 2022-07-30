@@ -1,0 +1,45 @@
+{
+  "type": "calculated",
+  "name": "Quad Index No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR quad = ",
+    "IF (",
+    "    Customers[80/20] = \"A\"",
+    "        && Customers[Items A %] = 1,",
+    "    1,",
+    "    IF (",
+    "        Customers[80/20] = \"A\"",
+    "            && Customers[Items A %] >= .8,",
+    "        2,",
+    "        IF (",
+    "            Customers[80/20] = \"A\"",
+    "                && Customers[Items A %] < .8,",
+    "            3,",
+    "            IF (",
+    "                Customers[80/20] = \"B\"",
+    "                    && Customers[Items A %] >= .8,",
+    "                4,",
+    "                IF ( Customers[80/20] = \"B\" && Customers[Items A %] > 0, 5, 6 )",
+    "            )",
+    "        )",
+    "    )",
+    ")",
+    "RETURN",
+    "IF ( ",
+    "    NOT ( ISBLANK ( 'Customers'[80/20] ) ),",
+    "    quad ",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "8fbc2591-6df1-4809-9612-f5120614a6b4",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "05d96595-a6da-41d3-9361-124c93d8e2c4",
+  "fromTable": "Open Purchase Orders",
+  "fromColumn": "Vendor No.",
+  "toTable": "Vendors",
+  "toColumn": "Vendor No."
+}

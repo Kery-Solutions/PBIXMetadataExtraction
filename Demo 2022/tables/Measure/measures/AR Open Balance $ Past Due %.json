@@ -1,0 +1,7 @@
+{
+  "name": "AR Open Balance $ Past Due %",
+  "expression": "DIVIDE([AR Open Balance Past Due $], [AR Open Balance $])",
+  "formatString": "0.0%;-0.0%;0.0%",
+  "displayFolder": "AR Open Balance",
+  "lineageTag": "fe3fae0a-716b-4e93-9585-7d389e4c6874"
+}

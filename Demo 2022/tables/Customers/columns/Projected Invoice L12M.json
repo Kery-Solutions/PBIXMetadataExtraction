@@ -1,0 +1,31 @@
+{
+  "type": "calculated",
+  "name": "Projected Invoice L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[First Sale]",
+    "        > TODAY () - 365,",
+    "    DIVIDE (",
+    "        Customers[Invoice L12M],",
+    "        DIVIDE ( VALUE ( TODAY () ) - VALUE ( Customers[First Sale] ), 365 )",
+    "    ),",
+    "    Customers[Invoice L12M]",
+    ")"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "33c9ff01-5348-4d27-ae9e-139cb3ea2bb7",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Order No.",
+  "dataType": "string",
+  "sourceColumn": "Order No.",
+  "lineageTag": "a0d08b83-add1-4fad-ae67-77051cf4c87f",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

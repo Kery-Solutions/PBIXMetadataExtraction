@@ -1,0 +1,13 @@
+{
+  "name": "YearQuarter No.",
+  "dataType": "string",
+  "sourceColumn": "YearQuarter No.",
+  "lineageTag": "c9a1e3e8-1d43-4215-b876-8148a8e9d536",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

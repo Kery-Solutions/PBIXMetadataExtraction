@@ -1,0 +1,10 @@
+{
+  "name": "Aging Inventory Running KG 09+ LM",
+  "expression": [
+    "",
+    "CALCULATE ( [Aging Inventory Running KG 09+], 'Calendar'[Date] < TODAY () - 30 )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "e73eea79-a558-407a-a904-4379dd4a13c9"
+}

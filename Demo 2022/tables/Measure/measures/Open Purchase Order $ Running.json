@@ -1,0 +1,19 @@
+{
+  "name": "Open Purchase Order $ Running",
+  "expression": [
+    "",
+    "VAR mDate = MAX('Calendar'[Date])",
+    "RETURN",
+    "CALCULATE([Open Purchase Order $], FILTER(ALL('Calendar'),'Calendar'[Date]<=mDate))"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "isHidden": true,
+  "displayFolder": "Open Purchase Orders",
+  "lineageTag": "17bde3b6-39db-4c4a-b005-e517c4ac9598",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Open Sales Orders Unit Cost",
+  "expression": "DIVIDE([Open Sales Orders Cost $], [Open Sales Orders Qty Open])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "d4a7e3e9-d3ef-4030-b497-a779887d4ee8",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Open Sales Orders Margin Opp $",
+  "expression": [
+    "",
+    "SUMX ( ",
+    "    'Open Sales Orders',",
+    "    MAX ( [Open Sales Orders Margin $ Goal] - [Open Sales Orders Margin $], 0 )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "875f3ad2-86bd-4f37-8d78-e171a0d3f226",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

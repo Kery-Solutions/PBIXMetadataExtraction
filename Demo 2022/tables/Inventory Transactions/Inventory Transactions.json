@@ -1,0 +1,28 @@
+{
+  "name": "Inventory Transactions",
+  "lineageTag": "617e8298-d4d4-429f-8e52-1bb8291553a7",
+  "partitions": [
+    {
+      "name": "Inventory Transactions-35632e76-65f5-42b2-86bd-bef2367e4bf5",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"989329b6-f912-46ab-a042-65f33061ec5a\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"989329b6-f912-46ab-a042-65f33061ec5a\"]}[Data],",
+          "    #\"Inventory Transactions1\" = #\"989329b6-f912-46ab-a042-65f33061ec5a\"{[entity=\"Inventory Transactions\"]}[Data]",
+          "in",
+          "    #\"Inventory Transactions1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

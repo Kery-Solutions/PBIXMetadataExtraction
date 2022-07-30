@@ -1,0 +1,19 @@
+{
+  "name": "AR Transactions Turnover Days",
+  "expression": [
+    "",
+    "//DIVIDE([AR Transactions Amount $ Running], [AR Transactions Sales $ 28 Days]) * 28",
+    "IF (",
+    "    [AR Transactions Amount $ Running] > 1",
+    "        && [AR Transactions Sales $ 28 Days] = 0,",
+    "    300,",
+    "    DIVIDE (",
+    "        [AR Transactions Amount $ Running],",
+    "        DIVIDE ( [AR Transactions Sales $ 28 Days], 28 )",
+    "    )",
+    ")"
+  ],
+  "formatString": "0",
+  "displayFolder": "AR Transactions",
+  "lineageTag": "c6ee1864-3422-49d6-828a-371fa2fdb9bc"
+}

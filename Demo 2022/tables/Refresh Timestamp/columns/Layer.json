@@ -1,0 +1,13 @@
+{
+  "name": "Layer",
+  "dataType": "string",
+  "sourceColumn": "Layer",
+  "lineageTag": "49afdce4-3fdd-449a-a036-6dfb1145186c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

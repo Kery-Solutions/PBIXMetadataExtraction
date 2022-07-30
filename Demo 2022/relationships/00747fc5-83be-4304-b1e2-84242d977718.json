@@ -1,0 +1,7 @@
+{
+  "name": "00747fc5-83be-4304-b1e2-84242d977718",
+  "fromTable": "Open Sales Orders",
+  "fromColumn": "Ship Date",
+  "toTable": "Calendar",
+  "toColumn": "Date"
+}

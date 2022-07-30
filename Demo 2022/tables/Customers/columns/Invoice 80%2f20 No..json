@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "Invoice 80/20 No.",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF (",
+    "    Customers[Percentile Invoice L12M] > .2,",
+    "    1,",
+    "    IF ( NOT ( ISBLANK ( Customers[Percentile Invoice L12M] ) ), 2 )",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "c6e07ad2-cdd5-4180-8711-ab0c6dc0fe7e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

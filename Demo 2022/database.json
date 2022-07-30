@@ -1,6 +1,6 @@
 {
-  "name": "Test Report",
-  "id": "0a14a243-18ed-413b-89b9-5595b5ef7a6f",
+  "name": "Demo 2022-20220730T085657",
+  "id": "5a62de14-6b4b-46d3-829e-7a34144e9200",
   "compatibilityLevel": 1550,
   "model": {
     "culture": "en-US",
@@ -10,18 +10,40 @@
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
     "sourceQueryCulture": "en-US",
+    "expressions": [
+      {
+        "name": "Locations",
+        "kind": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"f3184f8a-b6f7-40d7-aadd-533f36d63cb1\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"f3184f8a-b6f7-40d7-aadd-533f36d63cb1\"]}[Data],",
+          "    Locations1 = #\"f3184f8a-b6f7-40d7-aadd-533f36d63cb1\"{[entity=\"Locations\"]}[Data]",
+          "in",
+          "    Locations1"
+        ],
+        "lineageTag": "038678df-ed8a-4032-8173-5bf9802023ae",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ]
+      }
+    ],
     "annotations": [
       {
         "name": "PBIDesktopVersion",
-        "value": "2.107.841.0 (22.07)"
+        "value": "2.105.923.0 (22.05)"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
-        "value": "1"
+        "value": "0"
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"Date\",\"ProductCategory\",\"Product\",\"Reseller\",\"ProductSubcategory\"]"
+        "value": "[\"Measure\",\"Customers\",\"Items\",\"Sales History\",\"Calendar\",\"Purchase History\",\"Vendors\",\"AR Open Balances\",\"Inventory Transactions\",\"Inventory (static)\",\"Inventory\",\"Open Purchase Orders\",\"Open Sales Orders\",\"AP Open Balances\",\"AR Transactions\",\"AP Transactions\",\"Locations\",\"Refresh Timestamp\"]"
       },
       {
         "name": "TabularEditor_SerializeOptions",

@@ -1,0 +1,21 @@
+{
+  "type": "calculated",
+  "name": "Quad",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR quad =",
+    "    RELATED ( 'Customers'[80/20] ) & RELATED ( 'Items'[80/20] )",
+    "RETURN",
+    "    SWITCH ( quad, \"AA\", \"Quad 1\", \"AB\", \"Quad 2\", \"BA\", \"Quad 3\", \"BB\", \"Quad 4\" )"
+  ],
+  "lineageTag": "b4a05fad-61b7-4e48-ad69-59f3d8790d38",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

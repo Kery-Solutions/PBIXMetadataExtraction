@@ -1,0 +1,7 @@
+{
+  "name": "f5026939-ecd3-4e87-a67b-3dbdab51d70a",
+  "fromTable": "Sales History",
+  "fromColumn": "Item No.",
+  "toTable": "Items",
+  "toColumn": "Item No."
+}

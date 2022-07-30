@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "First Sale",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE ( MIN ( 'Sales History'[Document Date] ) )"
+  ],
+  "formatString": "Short Date",
+  "lineageTag": "51a5e9fd-2ef3-4bf4-ab1f-7f8b3bcef6e9",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

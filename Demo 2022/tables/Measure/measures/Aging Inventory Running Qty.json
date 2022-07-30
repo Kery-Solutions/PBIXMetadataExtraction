@@ -1,0 +1,19 @@
+{
+  "name": "Aging Inventory Running Qty",
+  "expression": [
+    "",
+    "VAR maxDate =",
+    "    MIN ( MAX ( 'Calendar'[Date] ), TODAY () )",
+    "RETURN",
+    "CALCULATE (",
+    "    [Inventory Qty On Hand],",
+    "    FILTER (",
+    "        ALL ( 'Calendar'[Date] ),",
+    "        ISONORAFTER ( 'Calendar'[Date], maxDate, DESC )",
+    "    )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Aging Inventory",
+  "lineageTag": "7deca257-5c2b-4246-90f5-a3825de2e863"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "calculated",
+  "name": "Customers A %",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    DIVIDE (",
+    "        CALCULATE ( [Sales History $], FILTER ( Customers, 'Customers'[80/20] = \"A\" ) ),",
+    "        [Sales History $]",
+    "    ),",
+    "    FILTER ( 'Calendar', 'Calendar'[Date] >= TODAY () - 365 )",
+    ")"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "090811a0-c049-4536-9601-2b4feab88d22",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

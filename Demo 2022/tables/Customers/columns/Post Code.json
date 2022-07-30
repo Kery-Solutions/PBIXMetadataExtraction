@@ -1,0 +1,14 @@
+{
+  "name": "Post Code",
+  "dataType": "string",
+  "sourceColumn": "Post Code",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "c364e7a3-faf7-4e7f-a024-c75558ed10d2",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

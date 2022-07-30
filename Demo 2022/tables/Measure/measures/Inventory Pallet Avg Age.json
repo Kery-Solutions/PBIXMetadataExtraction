@@ -1,0 +1,10 @@
+{
+  "name": "Inventory Pallet Avg Age",
+  "expression": [
+    "",
+    "AVERAGE ('Inventory (static)'[Age (Days)] )"
+  ],
+  "formatString": "0",
+  "displayFolder": "Inventory Static",
+  "lineageTag": "c9d4fcfc-1e84-4c58-8c52-0bec916111b8"
+}

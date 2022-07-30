@@ -1,0 +1,28 @@
+{
+  "name": "Refresh Timestamp",
+  "lineageTag": "80040fc5-d21d-44e8-899f-e64c78da4682",
+  "partitions": [
+    {
+      "name": "Refresh Timestamp-2a48c0a8-e0be-4600-ba05-57adb4bda3a2",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"466767d2-3919-4403-9ebc-2f6354df20e8\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"466767d2-3919-4403-9ebc-2f6354df20e8\"]}[Data],",
+          "    #\"Refresh Timestamp1\" = #\"466767d2-3919-4403-9ebc-2f6354df20e8\"{[entity=\"Refresh Timestamp\"]}[Data]",
+          "in",
+          "    #\"Refresh Timestamp1\""
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

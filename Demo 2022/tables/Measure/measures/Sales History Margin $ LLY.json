@@ -1,0 +1,19 @@
+{
+  "name": "Sales History Margin $ LLY",
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Sales History Margin $],",
+    "    DATEADD ( 'Calendar'[Date], -364 * 2, DAY )",
+    ")"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "2bd6a4cd-bd40-45c7-9556-f499852c1b8d",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

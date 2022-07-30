@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Percentile Weighted",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "DIVIDE (",
+    "    ( Items[Percentile Sales $ L12M] * 6 ) + ( [Percentile Margin $ L12M] * 4 ),",
+    "    10",
+    ")"
+  ],
+  "formatString": "0.0%;-0.0%;0.0%",
+  "lineageTag": "520d4772-accf-4227-8814-2f89cbd1de75",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

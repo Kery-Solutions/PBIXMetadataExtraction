@@ -1,0 +1,20 @@
+{
+  "name": "Sales Margin % Goal",
+  "lineageTag": "1ce1b86d-3c30-49c7-a2a3-39a003f7f556",
+  "partitions": [
+    {
+      "name": "Sales Margin % Goal-a5ac4186-f2c6-468d-8578-427b0ba32809",
+      "mode": "import",
+      "source": {
+        "type": "calculated",
+        "expression": "GENERATESERIES(0, 100, 1)"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "4a3ee1d01b4d431c83db3e55e8d0cec2"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Sales Margin % Goal",
+  "dataType": "double",
+  "isNameInferred": false,
+  "sourceColumn": "[Value]",
+  "formatString": "0",
+  "lineageTag": "c8426aa0-d656-46f3-a84d-fa596c64d7d7",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 0
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

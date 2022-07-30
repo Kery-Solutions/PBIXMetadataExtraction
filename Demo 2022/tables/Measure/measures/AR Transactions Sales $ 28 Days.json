@@ -1,0 +1,26 @@
+{
+  "name": "AR Transactions Sales $ 28 Days",
+  "expression": [
+    "",
+    "VAR l28d =",
+    "    CALCULATE (",
+    "        'Measure'[AR Transactions Amount $],",
+    "        FILTER (",
+    "            ALL ( 'Calendar'[Date] ),",
+    "            ISONORAFTER ( 'Calendar'[Date], MAX ( 'Calendar'[Date] ), DESC )",
+    "                && ISONORAFTER ( 'Calendar'[Date], MAX ( 'Calendar'[Date] ) - 28, ASC )",
+    "        )",
+    "    )",
+    "RETURN",
+    "    IF ( MAX ( 'Calendar'[Date] ) <= TODAY (), l28d )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Transactions",
+  "lineageTag": "8819550e-4cea-4623-8e91-407ffecbb2fe",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

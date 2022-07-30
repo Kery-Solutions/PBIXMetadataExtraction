@@ -1,0 +1,7 @@
+{
+  "name": "Inventory Transaction Qty",
+  "expression": "SUM('Inventory Transactions'[Qty])",
+  "formatString": "#,0",
+  "displayFolder": "Inventory Transactions",
+  "lineageTag": "66bbec28-001b-4dd7-892a-d31b100071a8"
+}

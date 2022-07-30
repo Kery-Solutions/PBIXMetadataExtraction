@@ -1,0 +1,14 @@
+{
+  "name": "Document No.",
+  "dataType": "string",
+  "sourceColumn": "Document No.",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "759d4925-f354-4c8e-a398-50d4846480e6",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

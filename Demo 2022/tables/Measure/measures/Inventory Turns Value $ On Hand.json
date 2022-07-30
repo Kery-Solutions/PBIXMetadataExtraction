@@ -1,0 +1,13 @@
+{
+  "name": "Inventory Turns Value $ On Hand",
+  "expression": "SUM('Inventory (static)'[Cost $])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Inventory Turns",
+  "lineageTag": "31829ac1-0ba2-482a-9e61-a9062abb6bae",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

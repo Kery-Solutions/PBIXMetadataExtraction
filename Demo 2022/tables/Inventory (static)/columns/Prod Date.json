@@ -1,0 +1,26 @@
+{
+  "name": "Prod Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Prod Date",
+  "formatString": "mm/dd/yy",
+  "lineageTag": "14ea3d1b-6998-4e18-ab60-5bba0a50dad7",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

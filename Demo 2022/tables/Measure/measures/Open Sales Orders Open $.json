@@ -1,0 +1,13 @@
+{
+  "name": "Open Sales Orders Open $",
+  "expression": "SUM('Open Sales Orders'[Open $])",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "8048c9ea-7aa8-4358-bd83-a63264a8c463",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

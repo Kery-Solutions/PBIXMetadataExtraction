@@ -1,0 +1,13 @@
+{
+  "name": ">9 Months",
+  "dataType": "string",
+  "sourceColumn": ">9 Months",
+  "lineageTag": "4bef1425-65f2-4fec-84e6-5ff34f6098b0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

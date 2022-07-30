@@ -1,0 +1,7 @@
+{
+  "name": "Open Purchase Order $/KG",
+  "expression": "DIVIDE([Open Purchase Order $],[Open Purchase Order KG])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Open Purchase Orders",
+  "lineageTag": "6dcbb600-d321-45cc-a9ea-467515337191"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "L30D",
+  "dataType": "string",
+  "sourceColumn": "L30D",
+  "lineageTag": "7369f73d-04bd-4fb3-ba95-e6a0a3000014",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

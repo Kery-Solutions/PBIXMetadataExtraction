@@ -1,0 +1,12 @@
+{
+  "name": "Open Sales Orders Orders Qty Open Running",
+  "expression": [
+    "",
+    "VAR mDate = MAX('Calendar'[Date])",
+    "RETURN",
+    "CALCULATE([Open Sales Orders Qty Open], FILTER(ALL('Calendar'),'Calendar'[Date]<=mDate))"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "Open Sales Orders",
+  "lineageTag": "6e2cd40f-74a4-4e3b-b494-a1b83c1ded6e"
+}

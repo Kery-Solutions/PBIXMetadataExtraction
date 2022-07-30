@@ -1,0 +1,32 @@
+{
+  "name": "Calendar",
+  "lineageTag": "c4c8e7de-b58b-4d57-9dc7-042bf772dc29",
+  "partitions": [
+    {
+      "name": "Calendar-deca5038-e412-4362-99bc-f75cc598ada5",
+      "mode": "import",
+      "source": {
+        "type": "m",
+        "expression": [
+          "let",
+          "    Source = PowerBI.Dataflows(null),",
+          "    #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\" = Source{[workspaceId=\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"]}[Data],",
+          "    #\"38a7e5eb-32f9-4d95-9a8c-cd84a95f77e7\" = #\"c425fca0-8fd4-4464-abd8-c54a3d9d2d3d\"{[dataflowId=\"38a7e5eb-32f9-4d95-9a8c-cd84a95f77e7\"]}[Data],",
+          "    Calendar1 = #\"38a7e5eb-32f9-4d95-9a8c-cd84a95f77e7\"{[entity=\"Calendar\"]}[Data]",
+          "in",
+          "    Calendar1"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

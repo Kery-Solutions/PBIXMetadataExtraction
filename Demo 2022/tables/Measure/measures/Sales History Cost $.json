@@ -1,0 +1,13 @@
+{
+  "name": "Sales History Cost $",
+  "expression": "SUM('Sales History'[Cost $])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales History",
+  "lineageTag": "d83ee7fa-c357-4dad-a672-11387b38481f",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

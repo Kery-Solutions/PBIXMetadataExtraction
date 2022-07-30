@@ -1,0 +1,13 @@
+{
+  "name": "Purchase History Cost $ LY",
+  "expression": "CALCULATE([Purchase History Cost $], DATEADD('Calendar'[Date],-364,DAY))",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Purchase History",
+  "lineageTag": "96d8d46b-aaf0-441b-b9b9-18bb72e28ba6",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

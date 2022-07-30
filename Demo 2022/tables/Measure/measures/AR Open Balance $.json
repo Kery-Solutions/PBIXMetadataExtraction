@@ -1,0 +1,16 @@
+{
+  "name": "AR Open Balance $",
+  "expression": [
+    "",
+    "SUM ( 'AR Open Balances'[Amount $] )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "AR Open Balance",
+  "lineageTag": "717da204-09e2-49b2-9723-19fe5640e979",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

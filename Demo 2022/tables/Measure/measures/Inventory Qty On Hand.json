@@ -1,0 +1,7 @@
+{
+  "name": "Inventory Qty On Hand",
+  "expression": "SUM('Inventory'[Qty])",
+  "formatString": "#,0",
+  "displayFolder": "Inventory Live",
+  "lineageTag": "e251f663-1a97-4f7a-ab96-5d2bb783d7bb"
+}

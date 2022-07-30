@@ -1,0 +1,13 @@
+{
+  "name": "Sales History $ LY",
+  "expression": "CALCULATE([Sales History $],DATEADD('Calendar'[Date],-364,DAY))",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Sales History",
+  "lineageTag": "ac23dd3d-7603-40d7-8784-7a11d92a9ca1",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

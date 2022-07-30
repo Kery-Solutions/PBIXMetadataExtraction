@@ -1,0 +1,14 @@
+{
+  "name": "Territory Code",
+  "dataType": "string",
+  "sourceColumn": "Territory Code",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "40a036be-f899-4341-aac3-747dcae59879",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Sales History $ per Invoice",
+  "expression": [
+    "",
+    "DIVIDE ( [Sales History $], DISTINCTCOUNTNOBLANK( 'Sales History'[Document No.] ) )"
+  ],
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "displayFolder": "Sales History",
+  "lineageTag": "b0912876-779b-4b36-a1b2-2702a36e5748"
+}

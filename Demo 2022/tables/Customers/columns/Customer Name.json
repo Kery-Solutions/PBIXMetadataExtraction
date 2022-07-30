@@ -1,0 +1,14 @@
+{
+  "name": "Customer Name",
+  "dataType": "string",
+  "sourceColumn": "Customer Name",
+  "sourceProviderType": "nvarchar(max)",
+  "lineageTag": "1991a73d-0796-4614-8965-e4c20e974d31",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

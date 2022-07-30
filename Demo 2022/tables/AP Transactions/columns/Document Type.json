@@ -1,0 +1,14 @@
+{
+  "name": "Document Type",
+  "dataType": "int64",
+  "sourceColumn": "Document Type",
+  "formatString": "0",
+  "lineageTag": "3df979c6-0c78-4f39-bdb4-ad2d8478d635",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

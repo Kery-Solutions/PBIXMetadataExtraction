@@ -1,0 +1,7 @@
+{
+  "name": "Open Purchase Order $",
+  "expression": "SUM('Open Purchase Orders'[Open $])",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
+  "displayFolder": "Open Purchase Orders",
+  "lineageTag": "a1f08903-0583-49f5-afe1-0867b24e642f"
+}

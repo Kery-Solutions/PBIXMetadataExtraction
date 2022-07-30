@@ -1,0 +1,26 @@
+{
+  "type": "calculated",
+  "name": "Invoice L12M",
+  "dataType": "double",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "CALCULATE (",
+    "    [Sales History Margin $ per Invoice],",
+    "    FILTER ( 'Calendar', 'Calendar'[Date] >= TODAY () - 365 )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "e69bc261-ea26-4fcb-88d6-ad31f1c7112b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"DataType\"]"
+    }
+  ]
+}
