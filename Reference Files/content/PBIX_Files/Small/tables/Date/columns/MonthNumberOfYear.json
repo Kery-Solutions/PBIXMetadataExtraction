@@ -1,0 +1,18 @@
+{
+  "name": "MonthNumberOfYear",
+  "dataType": "int64",
+  "sourceColumn": "MonthNumberOfYear",
+  "formatString": "0",
+  "lineageTag": "dca4de72-e096-4d4c-979f-130106f7cfe4",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+    }
+  ]
+}

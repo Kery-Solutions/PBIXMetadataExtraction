@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PowerBI.CICD",
+			"path": "..\\..\\gbrueckl\\PowerBI.CICD"
+		}
+	],
+	"settings": {}
+}

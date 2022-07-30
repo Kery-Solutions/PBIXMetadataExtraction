@@ -1,0 +1,18 @@
+{
+  "name": "StartDate",
+  "dataType": "dateTime",
+  "sourceColumn": "StartDate",
+  "formatString": "General Date",
+  "lineageTag": "3a567d33-efcd-45c6-b0e3-4c15d33a4af1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+    }
+  ]
+}

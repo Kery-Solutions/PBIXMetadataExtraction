@@ -1,0 +1,17 @@
+{
+  "name": "ProductAlternateKey",
+  "dataType": "string",
+  "sourceColumn": "ProductAlternateKey",
+  "lineageTag": "54af230b-16b4-4f4e-968b-2dc833dc5c7e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Text\" />"
+    }
+  ]
+}
